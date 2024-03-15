@@ -1,0 +1,13 @@
+name: Guncraft
+version: 0.0.1
+author: action35
+main: com.action35.guncraft.Main
+api-version: 1.16
+api: []
+commands:
+  gun:
+    description: Get a gun!
+    usage: /gun <type>
+  creategun:
+    description: Make a gun!
+    usage: /creategun <material> <damage> <magazine size> <reload time> <shot time> <distance>
